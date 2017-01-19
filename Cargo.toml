@@ -3,4 +3,10 @@ name = "arm_controller"
 version = "0.1.0"
 authors = ["nouwaarom <elbert@t-matix.nl>"]
 
+[lib]
+name = "arm_controller"
+crate-type = ["staticlib"]
+
 [dependencies]
+libc = "0.2"
+
